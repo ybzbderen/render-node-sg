@@ -1,0 +1,38 @@
+{
+  "log": { "loglevel": "warning" },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": 10000,
+      "protocol": "vless",
+      "settings": {
+        "clients": [{ "id": "bfd75223-5e39-4d4a-a684-88ed3114a5df", "flow": "" }],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": { "path": "/tk-render" }
+      }
+    }
+  ],
+  "outbounds": [{ "protocol": "freedom" }]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
